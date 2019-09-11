@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="awY-9Q-wpj">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="yAM-da-jIo">
+            <objects>
+                <viewController id="awY-9Q-wpj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ISh-Uj-SQs"/>
+                        <viewControllerLayoutGuide type="bottom" id="fIF-Ba-Cn0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gbk-ZZ-SAJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="hashtag" translatesAutoresizingMaskIntoConstraints="NO" id="N32-XP-4wQ">
+                                <rect key="frame" x="94" y="505" width="132" height="13"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logoBig" translatesAutoresizingMaskIntoConstraints="NO" id="E5P-J4-caL">
+                                <rect key="frame" x="90" y="185.5" width="140" height="55"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E5P-J4-caL" firstAttribute="centerY" secondItem="gbk-ZZ-SAJ" secondAttribute="centerY" multiplier="0.75" id="agA-ey-bR9"/>
+                            <constraint firstItem="E5P-J4-caL" firstAttribute="centerX" secondItem="gbk-ZZ-SAJ" secondAttribute="centerX" id="nFr-7D-zNF"/>
+                            <constraint firstItem="fIF-Ba-Cn0" firstAttribute="top" secondItem="N32-XP-4wQ" secondAttribute="bottom" constant="50" id="v0H-Ti-C7V"/>
+                            <constraint firstItem="N32-XP-4wQ" firstAttribute="centerX" secondItem="gbk-ZZ-SAJ" secondAttribute="centerX" id="zGB-aU-rT5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lsD-RX-ldz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x8s-Lg-E5z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-516" y="340"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hashtag" width="132" height="13"/>
+        <image name="logoBig" width="140" height="55"/>
+    </resources>
+</document>
